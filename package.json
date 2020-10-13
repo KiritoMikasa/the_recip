@@ -48,8 +48,7 @@
       "node_modules"
     ],
     "watch": [
-      "src",
-      "server"
+      "src"
     ],
     "ext": "ts",
     "exec": "ts-node ./src/server/index.ts"

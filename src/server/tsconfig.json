@@ -4,9 +4,9 @@
       "outDir": "../../dist",
       "noEmit": false,
       "sourceMap": true,
-      "module": "esnext",
+      "module": "commonjs",
       "strict": true,
-      "target": "esnext",
+      "target": "es5",
       "moduleResolution": "node"
     },
     "exclude": ["../../build", "../client"],
