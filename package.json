@@ -51,7 +51,7 @@
       "src"
     ],
     "ext": "ts",
-    "exec": "ts-node ./src/server/index.ts"
+    "exec": "ts-node --transpile-only --project ./src/server/tsconfig.json ./src/server/index.ts"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
